@@ -101,7 +101,7 @@ def main():
         if result == 1:
             st.success("You may have Lung Cancer, Please Contact a Doctor 👨🏼‍⚕️")
         else :
-            st.success("You are not showing any signs of Lung Cancer! :: 😀")
+            st.success("You are not showing any signs of Lung Cancer!😀")
 
     flag = False;
 
