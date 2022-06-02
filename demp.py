@@ -38,9 +38,9 @@ def main():
     flag = False;
     
     st.title("Lung Cancer Prediction ")
-    st.write(" MALE :: Enter 1  \n   FEMALE :: Enter 0")
+    st.write(" MALE :: Type 1  \n   FEMALE :: Type 0")
 #     st.write(" ")
-    st.write(" YES :: Enter 1  \n    NO :: Enter 0")
+    st.write(" YES :: Type 1  \n    NO :: Type 0")
 #     st.write("")
     
     GENDER = (st.text_input("GENDER", ""))
@@ -99,7 +99,7 @@ def main():
 #     st.success('The Output is {}'.format(result))
     if flag:
         if result == 1:
-            st.success("You may have Lung Cancer, Please Contact a Doctor 👨🏼‍⚕️")
+            st.success("You are showing signs of Lung Cancer, Please Consult a Doctor 👨🏼‍⚕️")
         else :
             st.success("You are not showing any signs of Lung Cancer!😀")
 
