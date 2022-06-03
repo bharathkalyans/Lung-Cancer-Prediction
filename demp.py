@@ -37,10 +37,10 @@ def main():
     
     flag = False;
     
-    st.title("Lung Cancer Prediction ")
-    st.write(" MALE :: Type 1  \n   FEMALE :: Type 0")
+    st.title("Lung Cancer Detection")
+    st.write(" MALE [Type 1]  \n   FEMALE [Type 0]")
 #     st.write(" ")
-    st.write(" YES :: Type 1  \n    NO :: Type 0")
+    st.write(" YES [Type 1]  \n    NO [Type 0]")
 #     st.write("")
     
     GENDER = (st.text_input("GENDER", ""))
@@ -91,7 +91,7 @@ def main():
     result = ""
 
     
-    if st.button('Predict'):
+    if st.button('PREDICT'):
         result = prediction(GENDER, AGE, SMOKING, YELLOW_FINGERS, ANXIETY, PEER_PRESSURE,
                             CHRONIC_DISEASE, FATIGUE, ALLERGY, WHEEZING, ALCOHOL_CONSUMING, COUGHING,
                             SHORTNESS_OF_BREATH, SWALLOWING_DIFFICULTY, CHEST_PAIN)
