@@ -44,7 +44,7 @@ def main():
     st.write(" YES ✅ - Type 1")
     st.write(" NO ❌ - Type 0")
 #     st.write("")
-    st.write(":blue[If wrong options are entered, default values will be selected]")
+    st.write("*If wrong options are entered, default values will be selected*")
     GENDER = (st.text_input("GENDER", ""))
     columns.append(getValue(GENDER))
 
