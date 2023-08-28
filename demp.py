@@ -38,7 +38,7 @@ def main():
     flag = False;
     
     st.title("Lung Cancer Detection")
-    st.write("MALE 🙎‍♂️ ",Type-1])
+    st.write("MALE 🙎‍♂️ ",Type-1)
     st.write("FEMALE 🙎‍♀️ ", Type-0)
 #     st.write(" ")
     st.write(" YES ", Type-1)
